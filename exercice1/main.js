@@ -15,8 +15,8 @@ for (var elem = 0; elem < contents.length; elem++) {
 
 //Function to delete article on click
 function deleteContent() {
-  var article = document.getElementsByTagName("article");
+  var elemtodelette = document.getElementsByTagName("article");
     /* get element name article
-    and deletre the first elem name "article */
-  article[0].style.display = "none";
+    and masqued the first elem name "article */
+  elemtodelette[0].style.display = "none";
 }
