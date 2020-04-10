@@ -19,12 +19,15 @@ const readline = require('readline').createInterface({
             console.log(`enter your realy age please!`)
         }if (age >= 21) {
             console.log(`access Ok!`)
-        }  else {
-            console.log(`you are ${age} Really!`)
-        }
+            if (age%2 == 0){
+                console.log(`your age is pair!`)
+                }else {
+                    console.log(`your age is impair!`)
+            }
+        } 
       }
       
     console.log(testNum(age));
-    //console.log(`enter your realy age please  ${age}!`)
+    
     readline.close()
   })
