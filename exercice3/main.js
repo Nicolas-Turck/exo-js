@@ -6,7 +6,7 @@ function newproducts(course) {
     // add to products 
   var products = document.createElement("products");
   products.innerHTML = course;
-    //add prodcts to shopp inglist
+    //add prodcts to shoppinglist
   shoppingList.appendChild(products);
 }
 
