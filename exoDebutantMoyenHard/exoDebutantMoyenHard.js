@@ -72,9 +72,9 @@ while(n !=100);{
 // exercices 8
 
 var n = 0;
-var symbol = "*"
+var stars = "*"
 while (n != 6){
-    console.log(n*symbol)
+    console.log(n*stars)
     n ++;
 }
 
