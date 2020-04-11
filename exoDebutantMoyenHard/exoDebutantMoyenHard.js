@@ -12,7 +12,6 @@ var readline = require('readline').createInterface({
     input: process.stdin,
     output: process.stdout
   })
-  
   readline.question(`how old are you ?`, (age) => {
     function testNum(age) {
         if (age < 0) {
@@ -26,11 +25,8 @@ var readline = require('readline').createInterface({
             }
         } 
       }
-      
-    console.log(testNum(age));
-    
-    readline.close()
-    
+    console.log(testNum(age));  
+    readline.close()  
   })
   
 // exercices 3
@@ -52,7 +48,6 @@ var readline2 = require('readline').createInterface({
     }
     console.log(verify(number));
     readline2.close()
-
   })
 
 // exercices 4
